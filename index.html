@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+    <link rel="stylesheet" href="my-project.css">
+    <!-- font-awesome -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+    />
+</head>
+<body>
+    <!-- navbar -->
+    <nav>
+        <!-- nav-left -->
+        <div class="nav-left">
+            <img src="https://dumbways.id/assets/images/brandred.png" alt="logo">
+            <a href="#" class="home">Home</a>
+            <a href="#" class="My-P">My Project</a>
+        </div>
+        <!-- nav-right -->
+        <div class="nav-right">
+            <a href="#" id="button">Contact Me</a>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+
+
+    <!-- container -->
+    <div class="container">
+        <h1>ADD MY PROJECT(S)</h1>
+        <form onsubmit="inputProject(event)">
+            <!-- project name -->
+            <div class="project-name">
+                <label for="project-name">Project Name</label><br>
+                <input type="text" id="project-name">
+            </div>
+            <!-- start aPnd end of project -->
+            <div class="project-date">
+                <div class="start">
+                    <label for="start">Start Date</label><br>
+                    <input type="date" id="start"><br>
+                </div>
+                <div class="end">    
+                    <label for="end">End Date</label><br>
+                    <input type="date" id="end">
+                </div>
+            </div>
+            <!-- Description -->
+            <div class="description">
+                <label for="description">Description</label><br>
+                <textarea id="description" cols="30" rows="10"></textarea><br>
+            </div><br>
+            <!-- checkbox -->
+            <label for="tech" id="tech">Technologies</label><br>
+
+            <!-- technologies -->
+            <div class="tech">
+                <div class="tech-1">
+                    <input type="checkbox" id="Node-JS">
+                    <label for="Node-JS">Node JS</label><br>
+                    <input type="checkbox" id="React-JS">
+                    <label for="React-JS">React JS</label>
+                </div>
+                <div class="tech-2">
+                    <input type="checkbox" id="Golang">
+                    <label for="Golang">Golang</label><br>
+                    <input type="checkbox" id="Swift">
+                    <label for="Swift">Swift</label>
+                </div>
+            </div><br>
+            <!-- upload image -->
+            <div class="upload-img">
+                <label for="i-img">
+                    <p>Attach file</p>
+                    <img src="https://www.svgrepo.com/show/151730/attach-file.svg" alt="attach file">
+                </label>
+                <input type="file" id="i-img" hidden>
+            </div>        
+            <div class="submit" id="submit">
+                <button>submit</button>
+            </div>
+        </form>
+    </div>
+    <br><br><br><br><br><br><br>
+
+
+    <h1><center>My Projects</center></h1>
+    <!-- My Projects -->
+    <div class="myProject" id="add-p">
+        
+
+        <a href="lorem.html" style="color: black;">
+        <div class="add">
+            <img src="https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
+            <h3>Lorem ipsum dolor sit amet</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum hic, fugit laboriosam voluptatibus sequi nihil tempora eaque ipsa dolore aliquid debitis repudiandae eum autem ex quis dignissimos laborum unde ut.</p>
+            <div class="font-awesome">
+                <i class="fa-brands fa-node-js fa-2xl"></i>
+                <i class="fa-brands fa-react fa-2xl"></i>
+                <i class="fa-brands fa-golang fa-2xl"></i>
+                <i class="fa-brands fa-swift fa-2xl"></i>
+            </div>
+            <p>
+                <img src="https://pic.onlinewebfonts.com/svg/img_216917.png" alt="" style="width: 30px; margin-left: 80%;">
+            </p>
+        </div>
+        </a>
+
+        <div class="add">
+            <img src="https://images.unsplash.com/photo-1613297252595-a0d18450d85a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80" alt="">
+            <h3>Lorem ipsum dolor sit amet</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum hic, fugit laboriosam voluptatibus sequi nihil tempora eaque ipsa dolore aliquid debitis repudiandae eum autem ex quis dignissimos laborum unde ut.</p>
+            <div class="font-awesome">
+                <i class="fa-brands fa-node-js fa-2xl"></i>
+                <i class="fa-brands fa-react fa-2xl"></i>
+                <i class="fa-brands fa-golang fa-2xl"></i>
+                <i class="fa-brands fa-swift fa-2xl"></i>
+            </div>
+            <p>
+                <img src="https://pic.onlinewebfonts.com/svg/img_216917.png" alt="" style="width: 30px; margin-left: 80%;">
+            </p>
+        </div>
+
+
+
+    </div>
+    <!-- javascript -->
+    <script src="project.js"></script>
+</body>
+</html>

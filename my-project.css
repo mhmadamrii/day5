@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* navbar */
+nav{
+display: flex;
+justify-content: space-between;
+height: 65px;
+background-color: #f0f4f8e3;
+align-items: center;
+}
+.nav-left{
+display: flex;
+padding: 10px 10px;
+width: 400px;
+align-items: center;
+font-weight: bold;
+font-size: 20px;
+}
+.nav-right{
+display: flex;
+padding: 5px 0;
+align-items: center;
+margin-right: 75px;
+/* border: 1px solid; */
+}
+.nav-left img{
+/* border: 1px solid; */
+margin-right: 25px;
+margin-left: 70px;
+width: 40px;
+}
+.home{
+margin-right: 20px;
+color: black;
+}
+.My-P{
+color: black;
+}
+#button{
+padding: 8px 10px;
+border-radius: 8px;
+border: 1px solid;
+background-color: black;
+color: white;
+}
+/* end navbar */
+
+/* container */
+.container{
+    width: 600px;
+    height: 700px;
+    margin: 50px auto;
+    /* border: 1px solid; */
+}
+.container h1{
+    text-align: center;
+}
+.container form{
+    /* border: 1px solid; */
+    width: 600px;
+    margin: 50px auto;
+}
+/* project-name */
+.project-name{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
+#project-name{
+    width: 100%;
+    height: 50px;
+    background-color: #eaeaea;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 0 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+    border: none;
+    box-shadow: 0 0 8px grey;
+}
+/* project-date */
+.project-date{
+    /* border: 1px solid; */
+    overflow: auto;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 100px;
+    padding: 5px 5px;
+}
+.start{
+    float: left;    
+}
+#start{
+    height: 50px;
+    width: 280px;
+    border-radius: 5px;
+    background-color: #eaeaea;
+    padding: 0 5px;
+    margin-top: 10px;
+    border: none;
+    box-shadow: 0 0 8px grey;
+}
+.end{
+    float: right;
+}
+#end{
+    height: 50px;
+    width: 280px;
+    border-radius: 5px;
+    background-color: #eaeaea;
+    padding: 0 5px;
+    margin-top: 10px;
+    border: none;
+    box-shadow: 0 0 8px grey;
+}
+#description{
+    width: 100%;
+    border-radius: 5px;
+    background-color: #eaeaea;
+    margin-top: 10px;
+    padding: 5px 5px;
+    font-size: 15px;
+    box-sizing: border-box;
+    border: none;
+    box-shadow: 0 0 8px grey;
+}
+.description{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* technologies */
+.tech{
+    margin-top: 10px;
+    /* border: 1px solid; */
+    overflow: auto;
+    font-size: 20px;
+}
+#tech{
+    font-size: 20px;
+    font-weight: bold;
+}
+.tech-1{
+    float: left;
+    /* border: 1px solid; */
+}
+.tech-2{
+    float: right;
+    /* border: 1px solid; */
+    margin-right: 100px;
+}
+.submit{
+    border: none;
+    margin: 30px auto;
+    text-align: center;
+    padding: 10px 100px;
+    border-radius: 5px;
+    width: 80px;
+    background-color:#eaeaea;
+    color: black;
+}
+.submit button{
+    font-size: 30px;
+    border: none;
+}
+.submit button:hover{
+    background-color: black;
+    color: white;
+    transition: .3s;
+    cursor: pointer;
+}
+.submit:hover{
+    color: white;
+    transition: .3s;
+    background-color:black;
+    box-shadow: 0 0 8px white; 
+}
+.upload-img{
+    /* border: 1px solid; */
+    overflow: auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 0 8px grey;
+}
+.upload-img p{
+    float: left;
+    /* margin-top: 8px; */
+    padding: 10px 60px;
+    border-radius: 5px;
+    background-color: #eaeaea;
+}
+/* upload-img */
+.upload-img img{
+    width: 40px;
+    float: right;
+    /* border: 1px solid; */
+    padding-left: 310px;
+}
+.upload-img img:hover{
+    cursor: pointer;
+}
+/* line */
+.myProject{
+    /* border: 1px solid; */
+    width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-around;
+}
+.add{
+    border: 1px solid;
+    width: 300px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.add:hover{
+    padding: 5px 10px;
+    transition: .3s;
+    box-shadow: 5px 10px #888888;
+    cursor: pointer;
+}
+.add img{
+    width: 300px;
+    border-radius: 5px;
+}
+.font-awesome{
+    /* border: 1px solid; */
+    margin-top: 20px;
+    height: 30px;
+    padding: 2px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
